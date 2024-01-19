@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UFOkiller v1.0", "UFOkiller v1.0.csproj", "{24EFD45A-6BE1-46D1-B94A-5045756BE6CE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{24EFD45A-6BE1-46D1-B94A-5045756BE6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24EFD45A-6BE1-46D1-B94A-5045756BE6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24EFD45A-6BE1-46D1-B94A-5045756BE6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24EFD45A-6BE1-46D1-B94A-5045756BE6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6C6733D-E138-4339-AA59-AFE003CC7423}
+	EndGlobalSection
+EndGlobal
