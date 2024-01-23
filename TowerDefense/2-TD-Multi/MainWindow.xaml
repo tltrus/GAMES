@@ -1,0 +1,20 @@
+﻿<Window x:Class="TD_multi.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TD_multi"
+        mc:Ignorable="d"
+        Title="Tower defense" Height="450" Width="660">
+    <Grid Margin="5">
+        <WrapPanel>
+            <Button x:Name="btnStart" Content="Start" Margin="5" Width="75" Click="BtnStart_Click"/>
+        </WrapPanel>
+        <local:DrawingVisualClass x:Name="g" HorizontalAlignment="Center" VerticalAlignment="Bottom" 
+                                  Height="360" Width="640" Opacity="0.9" >
+            <local:DrawingVisualClass.Background>
+                <ImageBrush ImageSource="/Media/imgLand.jpg" Stretch="None"/>
+            </local:DrawingVisualClass.Background>
+        </local:DrawingVisualClass>
+    </Grid>
+</Window>
