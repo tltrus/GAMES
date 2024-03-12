@@ -3,6 +3,8 @@ Simple C# games
 
 # Asteroids
 
+Based on https://thecodingtrain.com/challenges/46-asteroids
+
 ![image](https://github.com/tltrus/GAMES/assets/77125487/c7c8b9ad-d78f-4879-89ff-fda81a32bf59)
 
 
