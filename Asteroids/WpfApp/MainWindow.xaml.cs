@@ -65,6 +65,8 @@ namespace WpfApp
                 ship.Edges();
                 ship.Draw(dc);
 
+                KeyboardControl();
+
                 dc.Close();
                 g.AddVisual(visual);
             }
@@ -74,30 +76,33 @@ namespace WpfApp
         {
             ship.Boosting(false);
             ship.Braking(false);
-        }
 
-        private void Window_PreviewKeyDown(object sender, KeyEventArgs e)
-        {
             if (e.Key == Key.Space)
             {
                 ship.Shot();
             }
+        }
 
-            if (e.Key == Key.Left)
-            {
-                ship.Rotate(-10);
-            } else
-            if (e.Key == Key.Right)
-            {
-                ship.Rotate(10);
-            } else 
-            if (e.Key == Key.Up)
+        private void KeyboardControl()
+        {
+            if (Keyboard.IsKeyDown(Key.W))
             {
                 ship.Boosting(true);
-            } else 
-            if (e.Key == Key.Down)
+            }
+
+            if (Keyboard.IsKeyDown(Key.S))
             {
                 ship.Braking(true);
+            }
+
+            if (Keyboard.IsKeyDown(Key.A))
+            {
+                ship.Rotate(-5);
+            }
+
+            if (Keyboard.IsKeyDown(Key.D))
+            {
+                ship.Rotate(5);
             }
         }
     }

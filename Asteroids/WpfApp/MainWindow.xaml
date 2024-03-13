@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WpfApp"
         mc:Ignorable="d"
-        Title="Asteroids" Height="450" Width="800" PreviewKeyUp="Window_PreviewKeyUp" PreviewKeyDown="Window_PreviewKeyDown">
+        Title="Asteroids" Height="450" Width="800" PreviewKeyUp="Window_PreviewKeyUp">
     <Grid>
         <local:DrawingVisualClass x:Name="g" Height="420" Width="794" Background="Black" Margin="0,0,0,0" />
     </Grid>

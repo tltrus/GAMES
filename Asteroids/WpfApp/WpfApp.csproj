@@ -58,6 +58,7 @@
     <Compile Include="Asteroid.cs" />
     <Compile Include="ExtensionMethods.cs" />
     <Compile Include="Laser.cs" />
+    <Compile Include="Matrix.cs" />
     <Compile Include="MiscUtils.cs" />
     <Compile Include="Shape2D.cs" />
     <Compile Include="Ship.cs" />

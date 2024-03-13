@@ -1,5 +1,4 @@
-﻿using MiscUtils.Matrix;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Windows.Media;
 using System.Windows;
 
@@ -70,7 +69,7 @@ namespace WpfApp
             double y = centralpoint.Y + (double)size;
             points.Add(new Vector2D(x, y));
             double x2 = centralpoint.X;
-            double y2 = centralpoint.Y - (double)size;
+            double y2 = centralpoint.Y - (double)size - 10;
             points.Add(new Vector2D(x2, y2));
             double x3 = centralpoint.X + (double)size;
             double y3 = centralpoint.Y + (double)size;
@@ -202,7 +201,7 @@ namespace WpfApp
             }
 
             dc.DrawGeometry(brush, null, streamGeometry);
-            dc.DrawEllipse(Brushes.Red, null, new Point(centralpoint.X, centralpoint.Y), 2.0, 2.0);
+            //dc.DrawEllipse(Brushes.Red, null, new Point(centralpoint.X, centralpoint.Y), 2.0, 2.0);
         }
     }
 }

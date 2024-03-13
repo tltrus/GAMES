@@ -40,7 +40,7 @@ namespace WpfApp
         private void Boost()
         {
             var force = shape.GetDirection();
-            force.Mult(0.1);
+            force.Mult(0.05);
             vel.Add(force);
         }
 
