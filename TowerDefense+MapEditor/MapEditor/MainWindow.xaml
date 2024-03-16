@@ -1,0 +1,35 @@
+﻿<Window x:Class="MapEditor.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MapEditor"
+        mc:Ignorable="d"
+        Title="Map editor" Height="729" Width="1200">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1010" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+
+        <local:DrawingVisualClass Grid.Column="0" x:Name="g" Height="680" Margin="3" 
+                                  VerticalAlignment="Center" HorizontalAlignment="Center" Width="1000" MouseUp="g_MouseUp" >
+            <local:DrawingVisualClass.Background>
+                <ImageBrush ImageSource="/Media/imgLand.jpg"/>
+            </local:DrawingVisualClass.Background>
+
+        </local:DrawingVisualClass>
+        <Grid Grid.Column="1" Margin="5">
+            <StackPanel>
+                <Label Content="MODE:" HorizontalAlignment="Center" FontWeight="Bold"/>
+                <Label Name="lbMode" Content="--Select a mode--" />
+                <Button x:Name="btnDrawWay" Content="DRAWING A ROAD" HorizontalAlignment="Stretch" Click="btnDrawWay_Click" Style="{StaticResource ModeBtnStyle}"/>
+                <Button Name="btnDrawTower"  Content="DRAWING A TOWER" HorizontalAlignment="Stretch" Click="btnDrawTower_Click" Style="{StaticResource ModeBtnStyle}"/>
+                <Button Name="btnOpen" Content="OPEN A MAP" HorizontalAlignment="Stretch" Click="btnOpen_Click" Style="{StaticResource ModeBtnStyle}"/>
+                <Button Name="btnSave" Content="SAVE MAP" HorizontalAlignment="Stretch" Click="btnSave_Click" Style="{StaticResource ModeBtnStyle}"/>
+                <Button Name="btnClear" Content="CLEAR MAP" HorizontalAlignment="Stretch" Style="{StaticResource ModeBtnStyle}" Click="btnClear_Click"/>
+            </StackPanel>
+        </Grid>
+    </Grid>
+
+</Window>
