@@ -31,11 +31,16 @@ https://youtu.be/nwHJF_oi8tM
 ![image](https://github.com/tltrus/GAMES/assets/77125487/28dc4467-f309-4b79-8e48-619315232342)
 
 
-# TowerDefense
+# TowerDefense-1
 Simple game with monsters.
 https://www.youtube.com/watch?v=jQDFwACyg6g
 
 ![image](https://github.com/tltrus/GAMES/assets/77125487/ca94a420-5494-4b1c-a3be-2b5a142da07c)
+
+# TowerDefense-2
+Map editor for tower defense
+
+![image](https://github.com/tltrus/GAMES/assets/77125487/3cc67462-61fc-4fa5-90fb-8093681cba2b)
 
 
 # UFO killer
