@@ -1,11 +1,19 @@
 # Games
 Simple C# games
 
-# Asteroids
+# Asteroids / Asteroids-1
 
 Based on https://thecodingtrain.com/challenges/46-asteroids
 
 ![image](https://github.com/tltrus/GAMES/assets/77125487/c7c8b9ad-d78f-4879-89ff-fda81a32bf59)
+
+# Asteroids / Asteroids-2
+
+With image of spaceship
+
+https://youtu.be/NDXwIcl_8Q8
+
+![image](https://github.com/tltrus/GAMES/assets/77125487/b2ccda51-f23e-4bc2-a9a4-6bbdee7adf2f)
 
 
 # GameOfLife
