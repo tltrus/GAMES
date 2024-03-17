@@ -9,7 +9,7 @@ Based on https://thecodingtrain.com/challenges/46-asteroids
 
 # Asteroids / Asteroids-2
 
-With image of spaceship
+With image of spaceship. DrawingContext **PushTransform** is used for image rotation.
 
 https://youtu.be/NDXwIcl_8Q8
 
