@@ -16,13 +16,6 @@ https://youtu.be/NDXwIcl_8Q8
 ![image](https://github.com/tltrus/GAMES/assets/77125487/b2ccda51-f23e-4bc2-a9a4-6bbdee7adf2f)
 
 
-# GameOfLife
-Conway's Game of Life
-https://www.youtube.com/watch?v=v75Wc0BrB-A
-
-![image](https://github.com/tltrus/GAMES/assets/77125487/064b6fe0-8bca-4261-a1e1-cf8ab9d51d10)
-
-
 # SnakeWave
 Snake with Lee algorithm
 
