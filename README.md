@@ -18,7 +18,7 @@ With image of spaceship. DrawingContext **PushTransform** is used for image rota
 
 # Billiard. part 1
 
-C# game without full functions. 
+C# game without full functions. Can be modified (ball falling to holes).
 
 - Youtube: 
 
